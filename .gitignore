@@ -1,0 +1,5 @@
+.DS_Store
+.vscode
+*-bak
+*-backups
+qmk_firmware/keyboards/wke_66/NOTES.md

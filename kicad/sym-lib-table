@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name D2F-FL)(type Legacy)(uri ${KIPRJMOD}/D2F-FL/D2F-FL.lib)(options "")(descr ""))
+)
