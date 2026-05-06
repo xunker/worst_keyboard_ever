@@ -4,7 +4,9 @@ https://github.com/xunker/worst_keyboard_ever
 
 [![Worst. Keyboard. Ever. 66-key edition.](images/wke_66_small.jpeg)](images/wke_66_large.jpeg)
 
-It's a keyboard made from limit switches[^1]. Sorry.
+[![Worst. Keyboard. Ever. 66-key edition.](images/overhead_small.jpeg)](images/overhead_large.jpeg)
+
+It's a mechanical keyboard made from limit switches[^1]. Sorry.
 
 ## Parts
 
@@ -13,12 +15,12 @@ Part                      | Quantity | Notes
 --------------------------|----------|------
 [PCB](kicad)              | 1        | Using more than one is not recommended
 Omron D2F-FL              | 66       | [^2]
-1N4148 Diode              | 66       | SOT123 package recommended, but you can use LL34 (MiniMELF) if you hate yourself
+1N4148 Diode              | 66       | SOT-123 package recommended, but you can use LL34 (MiniMELF) if you like things that roll away while you're soldering them
 2.54MM pin (male) headers | 23 pos   | Use whatever fits in the holes[^3]
-0805 LED                  | 3        | Prefer the kind that light up; LED that don't light up aren't fun
+0805 LED                  | 3        | Prefer the kind that light up; LEDs that don't light up are not good indicators
 0805 330 ohm resistor     | 3        | You'll learn to solder SMD components and you'll _like it_
 
-Your microcontroller is not listed. Use whatever you like. There's [QMK firmware](qmk_firmware/keyboards/wke_66/) for the Pi Pico if you want it.
+Your microcontroller is not listed. Use whatever you like. There's [QMK firmware](qmk_firmware/keyboards/wke_66) for the Pi Pico if you want it.
 
 ## Matrix
 
@@ -33,7 +35,7 @@ Your microcontroller is not listed. Use whatever you like. There's [QMK firmware
 
 ## Firmware
 
-There is QMK firmware available, targeting the Raspberry Pi Pico (RP2040). Find it in the [qmk_firmware](qmk_firmware/keyboards/wke_66/) directory.
+There is QMK firmware available, targeting the Raspberry Pi Pico (RP2040). Find it in the [qmk_firmware](qmk_firmware/keyboards/wke_66) directory.
 
 # Useless Questions
 
@@ -43,7 +45,7 @@ Because I needed **one** switch, but it was cheaper to buy a whole gross of them
 
 ## The switches are too close together
 
-I recommend installing smaller fingers.
+I recommend installing smaller fingers on one or both hands.
 
 ## I've used worse keyboards than this!
 
@@ -58,11 +60,26 @@ Don't worry about it. No one in the history of the world has **ever** used Scrol
 
 Assuming drills exist, yes.
 
+## It has no legends!
+
+If you're asking for key legends, that means you want to use this as an _actual_ keyboard to type _real_ things. That's a crazy idea, you should stand up and slowly back away.
+
+<details>
+<summary>But, if you insist, here are some suggestions</summary>
+
+* Permanent Marker with an extra-fine tip, and a very steady hand
+* Masking tape
+* Label printer + scissors
+* Laser marking
+* 3D-printed or laser-cut "piano-key" cover
+
+</details>
+
 ## Your soldering is terrible!
 
 Wrong, _MY_ soldering is AWESOME. My _cat's_ soldering is terrible.
 
-Note: The cat hair seen in the photos is __not included__.
+Note: Cat hair seen in the [photos](images/) is __not included__.
 
 # License
 
