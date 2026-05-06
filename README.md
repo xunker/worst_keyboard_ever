@@ -20,7 +20,7 @@ Omron D2F-FL              | 66       | [^2]
 0805 LED                  | 3        | Prefer the kind that light up; LEDs that don't light up are not good indicators
 0805 330 ohm resistor     | 3        | You'll learn to solder SMD components and you'll _like it_
 
-Your microcontroller is not listed. Use whatever you like. There's [QMK firmware](qmk_firmware/keyboards/wke_66) for the Pi Pico if you want it.
+Your microcontroller is not listed. Use whatever you like. There's [QMK firmware](#firmware) for the Pi Pico if you want it.
 
 ## Matrix
 
@@ -42,6 +42,8 @@ If you're using a 3.3V MCU like the Pi Pico, do **NOT** connect `common` to a 5V
 ## Firmware
 
 There is QMK firmware available, targeting the Raspberry Pi Pico (RP2040). Find it in the [qmk_firmware](qmk_firmware/keyboards/wke_66) directory.
+
+If you don't want to build it yourself, and you don't need to customize anything, a [prebuild .u2f file](./wke_wke_66_default.uf2) is also available.
 
 # Useless Questions
 
