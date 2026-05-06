@@ -56,7 +56,7 @@ Don't worry about it. No one in the history of the world has **ever** used Scrol
 
 ## Is there an ISO version?
 
-Assuming scissors exist, yes.
+Assuming drills exist, yes.
 
 ## Your soldering is terrible!
 
