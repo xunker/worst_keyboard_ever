@@ -64,16 +64,7 @@ Assuming drills exist, yes.
 
 If you're asking for key legends, that means you want to use this as an _actual_ keyboard to type _real_ things. That's a crazy idea, you should stand up and slowly back away.
 
-<details>
-<summary>But, if you insist, here are some suggestions</summary>
-
-* Permanent Marker with an extra-fine tip, and a very steady hand
-* Masking tape
-* Label printer + scissors
-* Laser marking
-* 3D-printed or laser-cut "piano-key" cover
-
-</details>
+But, if you insist, [here are some suggestions](SERIOUSLY.md#no-legends).
 
 ## Your soldering is terrible!
 

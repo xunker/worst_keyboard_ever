@@ -27,6 +27,13 @@ If I'd been more diligent in the PCB design, I would have made sure to have
 silkscreens in the top-left corner of each unit, but I didn't know enough about
 Kicad at the time (May 2022).
 
+Here are some ideas for adding legends:
+* Permanent Marker with an extra-fine tip, and a very steady hand
+* Masking tape
+* Label printer + scissors
+* Laser marking
+* 3D-printed or laser-cut "piano-key" cover
+
 ### Narrow key spacing
 
 The key spacing is `2*(switch width)`, and that's too narrow for most people's
