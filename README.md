@@ -32,6 +32,12 @@ Your microcontroller is not listed. Use whatever you like. There's [QMK firmware
 | 3       | shft | z   | x   | c    | v    | b    | n    | m   | ,   | .   | /   | shft | up   | fn    |
 | 4       | ctrl | win | alt |  --- | spc1 | spc2 | spc3 | --- | --- | alt | app | left | down | right |
 
+## LEDs
+
+The caps/num/scroll LEDs are _active-low_. That means the `common` pin should be connected to your microcontroller's VCC, and the LEDs are activated by pulling the approriate pin to ground.
+
+If you're using a 3.3V MCU like the Pi Pico, do **NOT** connect `common` to a 5V source like VBUS or USB power. If you do that, you'll _fry_ your MCU you'll be sad.
+
 
 ## Firmware
 
